@@ -1,0 +1,7 @@
+[submodule "content"]
+	path = content
+	url = https://github.com/byteski/notes
+  branch = "main"
+[submodule "themes/hugo-byte"]
+	path = themes/hugo-byte
+	url = https://github.com/byteski/hugo-byte

@@ -1,0 +1,108 @@
+baseURL = "http://localhost:1313"
+title = "byteski:~#"
+theme = "hugo-byte-local"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+paginate = 6
+# contentDir = 'content'
+
+custom_css = ["css/custom.css"]
+
+[params]
+author = "byteski"
+description = "Personal website example"
+keywords = "blog"
+avatarURL = "/images/avatar.jpg"
+favicon_32 = "/images/favicon.png"
+favicon_16 = "/images/favicon.png"
+defaultImage = "/images/default-image.png"
+dateFormat = "02/01/2006"
+since = 2022
+colorScheme = "dark"
+hideColorSchemeToggle = false
+greetingTitle = "👋 <span class='gradient'>Hey, I'm</span> <span>@byteski</span>"
+blurbContent = [
+  'I am a software developer based in Europe',
+  'I write a blog about topics that interest me most: programming languages in general, <a href="/tags/typescript">TypeScript</a>, testing, writing and other great stuff.'
+]
+sidePanelTags = [
+  'typescript',
+  'typescriptbook',
+  'node',
+  'vim',
+  'linux'
+]
+summaryLength = 100
+disable_comments = false
+enableTwemoji = false
+
+[params.subscription]
+title = "Subscribe to the <a href='/newsletter'>newsletter</a>"
+description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my <a href='/books'>eBooks</a> and courses."
+endpoint = "https://app.convertkit.com/forms/2313117/subscriptions"
+successMessage = "Success! Now check your email to confirm your subscription."
+failureMessage = "Oops, Something went wrong! Try again."
+
+[params.utterances]
+repo = "byteski/byteski-comments"
+issueTerm = "pathname"
+theme = "github-dark"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = 'monokai'
+    tabWidth = 4
+
+[taxonomies]
+tag = "tags"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter"
+weight = 1
+url = "https://twitter.com/byteski"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa fa-github"
+weight = 2
+url = "https://github.com/byteski"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "~/"
+weight = 1
+url = "/"
+pre = "<i class='fa fa-home color-green'></i>"
+
+[[languages.en.menu.main]]
+name = "about.md"
+weight = 2
+url = "about/"
+pre = "<i class='fa fa-user color-skyblue'></i>"
+
+[[languages.en.menu.main]]
+name = "blog/"
+weight = 3
+url = "blog/"
+pre = "<i class='fa fa-book color-pink'></i>"
+
+[[languages.en.menu.main]]
+name = "notes/"
+weight = 4
+url = "notes/"
+pre = "<i class='fa fa-archive color-orange'></i>"
+
+
