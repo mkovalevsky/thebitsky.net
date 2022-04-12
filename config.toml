@@ -1,6 +1,6 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://byte.ski"
 title = "byteski:~#"
-theme = "hugo-byte-local"
+theme = "hugo-byte"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -38,9 +38,9 @@ disable_comments = false
 enableTwemoji = false
 
 [params.subscription]
-title = "Subscribe to the <a href='/newsletter'>newsletter</a>"
-description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my <a href='/books'>eBooks</a> and courses."
-endpoint = "https://app.convertkit.com/forms/2313117/subscriptions"
+title = "Subscribe to the newsletter"
+description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my eBooks and courses."
+endpoint = "https://app.convertkit.com/forms/2149587/subscriptions"
 successMessage = "Success! Now check your email to confirm your subscription."
 failureMessage = "Oops, Something went wrong! Try again."
 
@@ -106,3 +106,5 @@ url = "notes/"
 pre = "<i class='fa fa-archive color-orange'></i>"
 
 
+[params.plausibleAnalytics]
+domain = "byte.ski"

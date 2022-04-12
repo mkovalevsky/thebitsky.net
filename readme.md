@@ -1,4 +1,6 @@
-# Hugo Byte Example
+# byte.ski
 
-Example website for [Hugo Byte theme](https://github.com/byteski/hugo-byte)
+👨‍💻 My personal website
 
+- technology: [Hugo](https://github.com/gohugoio/hugo)
+- theme: [Hugo Byte](https://github.com/byteski/hugo-byte)
