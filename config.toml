@@ -1,5 +1,5 @@
-baseURL = "https://byte.ski"
-title = "byteski:~#"
+baseURL = "https://kovalevski.net"
+title = "Max Kovalevski"
 theme = "hugo-byte"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -10,7 +10,7 @@ paginate = 6
 custom_css = ["css/custom.css"]
 
 [params]
-author = "byteski"
+author = "Max Kovalevski"
 description = "Personal website example"
 keywords = "blog"
 avatarURL = "/images/avatar.jpg"
@@ -21,7 +21,7 @@ dateFormat = "02/01/2006"
 since = 2022
 colorScheme = "dark"
 hideColorSchemeToggle = false
-greetingTitle = "👋 <span class='gradient'>Hey, I'm</span> <span>@byteski</span>"
+greetingTitle = "👋 <span class='gradient'>Hey, I'm</span> <span>Max Kovalevski</span>"
 blurbContent = [
   'I am a software developer based in Europe',
   'I write a blog about topics that interest me most: programming languages in general, <a href="/tags/typescript">TypeScript</a>, testing, writing and other great stuff.'
@@ -45,7 +45,7 @@ successMessage = "Success! Now check your email to confirm your subscription."
 failureMessage = "Oops, Something went wrong! Try again."
 
 [params.utterances]
-repo = "byteski/byteski-comments"
+repo = "maxkovalevski/kovalevski-comments"
 issueTerm = "pathname"
 theme = "github-dark"
 
@@ -70,13 +70,13 @@ tag = "tags"
 name = "Twitter"
 icon = "fa fa-twitter"
 weight = 1
-url = "https://twitter.com/byteski"
+url = "https://twitter.com/maxkovalevski"
 
 [[params.social]]
 name = "GitHub"
 icon = "fa fa-github"
 weight = 2
-url = "https://github.com/byteski"
+url = "https://github.com/kovalevski"
 
 [languages.en]
 languageName = ":uk:"
@@ -107,4 +107,4 @@ pre = "<i class='fa fa-archive color-orange'></i>"
 
 
 [params.plausibleAnalytics]
-domain = "byte.ski"
+domain = "kovalevski.net"
