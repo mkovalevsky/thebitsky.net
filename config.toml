@@ -43,6 +43,7 @@ description = "Get a once-per-week email with my latest content. By subscribing 
 endpoint = "https://app.convertkit.com/forms/2149587/subscriptions"
 successMessage = "Success! Now check your email to confirm your subscription."
 failureMessage = "Oops, Something went wrong! Try again."
+subscriptionPageLink = "http://newsletter.kovalevski.net"
 
 [params.utterances]
 repo = "maxkovalevski/kovalevski-comments"
