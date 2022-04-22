@@ -123,6 +123,12 @@ weight = 4
 url = "notes/"
 pre = "<i class='fa fa-archive color-orange'></i>"
 
+[[languages.en.menu.main]]
+name = "stats"
+weight = 5
+url = "https://plausible.io/kovalevski.net"
+pre = "<i class='fa fa-bar-chart color-cyan'></i>"
+
 
 [params.plausibleAnalytics]
 domain = "kovalevski.net"
