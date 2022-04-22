@@ -126,3 +126,7 @@ pre = "<i class='fa fa-archive color-orange'></i>"
 
 [params.plausibleAnalytics]
 domain = "kovalevski.net"
+
+[params.webmention]
+webmentionUrl = "https://webmention.io/kovalevski.net/webmention"
+pingbackUrl = "https://webmention.io/kovalevski.net/xmlrpc"
