@@ -4,8 +4,13 @@ theme = "hugo-byte"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
-paginate = 6
+paginate = 20
 # contentDir = 'content'
+
+# for rss
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+[author]
+  name = 'Max Kovalevski'
 
 custom_css = ["css/custom.css"]
 
@@ -124,10 +129,22 @@ url = "notes/"
 pre = "<i class='fa fa-archive color-orange'></i>"
 
 [[languages.en.menu.main]]
-name = "stats"
+name = "newsletter"
 weight = 5
-url = "https://plausible.io/kovalevski.net"
-pre = "<i class='fa fa-bar-chart color-cyan'></i>"
+url = "http://newsletter.kovalevski.net"
+pre = "<i class='fa fa-envelope color-cyan'></i>"
+
+[[languages.en.menu.main]]
+name = "rss.xml"
+weight = 6
+url = "/index.xml"
+pre = "<i class='fa fa-rss-square color-pink'></i>"
+
+#[[languages.en.menu.main]]
+#name = "stats"
+#weight = 5
+#url = "https://plausible.io/kovalevski.net"
+#pre = "<i class='fa fa-bar-chart color-cyan'></i>"
 
 
 [params.plausibleAnalytics]

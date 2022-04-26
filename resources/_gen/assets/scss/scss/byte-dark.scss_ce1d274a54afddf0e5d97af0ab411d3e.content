@@ -3146,6 +3146,9 @@ body.colorscheme-dark {
 .color-orange {
   color: #fa9313; }
 
+.color-cyan {
+  color: #13faae; }
+
 .container {
   width: 100%;
   /* max-width: var(--main-container-md-width); */
