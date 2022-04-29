@@ -3410,7 +3410,8 @@ body.colorscheme-dark {
       color: #f4f4f4;
       font-weight: bold;
       background: linear-gradient(-90deg, #1a3162, #453762);
-      padding: 3px 14px; }
+      padding: 3px 14px;
+      font-size: 1.6rem; }
       .post header h4:hover, .post header h4:active {
         background: #f4f4f4;
         color: #111827; }
@@ -3421,8 +3422,7 @@ body.colorscheme-dark {
     padding: 3px 10px;
     margin-right: 1rem;
     font-weight: bold;
-    border: 2px solid #1f2938;
-    border-radius: 3px; }
+    background: none; }
     .post__type_blog i {
       color: #2a99ad; }
     .post__type_note i {
@@ -3432,10 +3432,13 @@ body.colorscheme-dark {
       top: 0px;
       left: 0px;
       border-radius: 3px 0 3px 0;
-      background: #111827;
+      background: none;
       border: none;
-      border-right: 2px solid #1f2938;
-      border-bottom: 2px solid #1f2938; }
+      background: #f4f4f4;
+      color: #111827;
+      border-color: #f4f4f4; }
+      .post__type_left i {
+        color: #111827; }
     .post__type:hover, .post__type:active {
       background: #f4f4f4;
       color: #111827;
@@ -4258,12 +4261,14 @@ ul {
     font-size: 20px;
     font-weight: bold;
     background: #1a3162;
-    color: #f4f4f4; }
+    color: #f4f4f4;
+    box-shadow: none !important;
+    border: none !important; }
     .subscription__btn:hover, .subscription__btn:active {
-      background: #f4f4f4;
-      color: #090e1a; }
+      background: #f4f4f4 !important;
+      color: #090e1a !important; }
     .subscription__btn_no-form {
-      border-radius: 4px; }
+      border-radius: 2px; }
   .subscription__success-msg {
     display: none; }
     .subscription__success-msg i {
