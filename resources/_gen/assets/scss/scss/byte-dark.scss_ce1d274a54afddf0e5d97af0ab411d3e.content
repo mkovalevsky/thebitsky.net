@@ -4282,4 +4282,16 @@ ul {
     .subscription__failure-msg_visible {
       display: block; }
 
+.subscribe-float-btn {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 18px;
+  z-index: 100;
+  padding: 8px 20px;
+  background: #f4f4f4;
+  color: #111827;
+  font-weight: bold;
+  text-transform: uppercase; }
+
 /*# sourceMappingURL=byte-dark.css.map */
