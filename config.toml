@@ -43,6 +43,7 @@ summaryLength = 100
 disable_comments = false
 enableTwemoji = false
 isFloatFollowBtnShown = true
+isIndieWebRingShown = true
 
 [params.subscription]
 title = "Subscribe to the newsletter"

@@ -3289,7 +3289,7 @@ body {
   line-height: 1.5;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
-  background-color: #111827;
+  background-color: #05080f;
   color: #e2e2e2;
   /* nested ul */ }
   body h1,
