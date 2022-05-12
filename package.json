@@ -1,0 +1,11 @@
+{
+  "name": "kovalevski-net",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maxkovalevski/kovalevski.net",
+  "author": "maxkovalevski <me@kovalevski.net>",
+  "license": "MIT",
+  "scripts": {
+    "main": "node hooks/main.js"
+  }
+}
