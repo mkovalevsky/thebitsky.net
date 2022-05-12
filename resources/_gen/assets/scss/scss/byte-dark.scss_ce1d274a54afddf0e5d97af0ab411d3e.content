@@ -3236,7 +3236,7 @@ body.colorscheme-dark {
   align-items: center;
   max-width: 900px;
   width: 100%;
-  margin: 3rem auto 3rem auto;
+  margin: 4rem auto 3rem auto;
   text-align: center; }
   .about-block a:not(.about-block__link) {
     color: #f4f4f4;
@@ -3361,11 +3361,30 @@ body.colorscheme-dark {
 
 .avatar {
   width: 100%;
-  max-width: 170px;
+  max-width: 180px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 auto 30px auto;
-  display: block; }
+  margin: 0 auto 3rem auto;
+  padding: 4px;
+  background: linear-gradient(0deg, #d92c7b, #f9a264);
+  display: block;
+  border: none !important;
+  outline: none; }
+  .avatar:hover, .avatar:active {
+    background: linear-gradient(0deg, #f9a264, #d92c7b) !important;
+    border: none !important;
+    outline: none; }
+  .avatar__inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #05080f;
+    padding: 6px; }
+  .avatar__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block; }
 
 .tags-card h3 {
   font-family: Roboto Mono, monospace;
@@ -4246,7 +4265,7 @@ ul {
     display: flex;
     align-items: center;
     margin-bottom: 1rem; }
-    .subscription form input {
+    .subscription form input[type="email"] {
       padding: 14px 20px;
       background: #1f2938;
       border: none;

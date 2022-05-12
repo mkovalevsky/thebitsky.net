@@ -48,7 +48,7 @@ isIndieWebRingShown = true
 [params.subscription]
 title = "Subscribe to the newsletter"
 description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my eBooks and courses."
-endpoint = "https://app.convertkit.com/forms/2149587/subscriptions"
+endpoint = "http://newsletter.kovalevski.net/add_subscriber"
 successMessage = "Success! Now check your email to confirm your subscription."
 failureMessage = "Oops, Something went wrong! Try again."
 subscriptionPageLink = "http://newsletter.kovalevski.net"
@@ -102,6 +102,13 @@ icon = "fa fa-instagram"
 iconColor = "#d00172"
 weight = 4
 url = "https://www.instagram.com/kovalevskimax"
+
+#[[params.social]]
+#name = "Mastodon"
+#icon = "fa fa-globe"
+#iconColor = "#d00172"
+#weight = 5
+#url = "https://mastodon.social/web/@kovalevski"
 
 [languages.en]
 languageName = ":uk:"
