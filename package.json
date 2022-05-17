@@ -6,6 +6,12 @@
   "author": "maxkovalevski <me@kovalevski.net>",
   "license": "MIT",
   "scripts": {
-    "main": "node hooks/main.js"
-  }
+    "storeRevueSubscribersCount": "node scripts/storeRevueSubscribersCount",
+    "main": "npm run storeRevueSubscribersCount"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.4"
+  },
+  "type": "module"
 }
