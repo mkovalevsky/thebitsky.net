@@ -27,7 +27,7 @@ dateFormat = "02/01/2006"
 since = 2022
 colorScheme = "dark"
 hideColorSchemeToggle = false
-greetingTitle = "👋 <span class='gradient'>Hey, I'm</span> <span class='p-name'>Max Kovalevski</span>"
+greetingTitle = "<span class='gradient'>Hey, I'm</span> <span class='p-name'>Max Kovalevski</span>"
 blurbContent = [
   'I am a software developer based in Europe',
   'I write a blog about topics that interest me most: programming languages in general, <a href="/tags/typescript">TypeScript</a>, testing, writing and other great stuff.'

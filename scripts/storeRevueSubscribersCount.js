@@ -1,7 +1,5 @@
-import fetch from 'node-fetch';
 import * as dotenv from 'dotenv';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { existsSync } from 'fs';
 import { writeFile, mkdir } from 'fs/promises';
 

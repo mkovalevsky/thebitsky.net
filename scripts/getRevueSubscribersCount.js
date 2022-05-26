@@ -5,7 +5,7 @@ dotenv.config();
 
 const { REVUE_API_KEY, REVUE_BASE_URL_API, REVUE_API_VERSION } = process.env;
 
-export const getRevueSubscribersCount = async () => {
+export const getRevueSubscribersCount = async () => {    
     try {
         const response = await fetch(`${REVUE_BASE_URL_API}/${REVUE_API_VERSION}/subscribers`, {
             headers: {

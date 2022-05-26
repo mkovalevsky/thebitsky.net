@@ -7,11 +7,15 @@
   "license": "MIT",
   "scripts": {
     "storeRevueSubscribersCount": "node scripts/storeRevueSubscribersCount",
+    "getWebmentions": "node scripts/getWebmentions",
     "main": "npm run storeRevueSubscribersCount"
   },
   "devDependencies": {
     "dotenv": "^16.0.1",
     "node-fetch": "^3.2.4"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "got": "^12.0.4"
+  }
 }
