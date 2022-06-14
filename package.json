@@ -7,8 +7,9 @@
   "license": "MIT",
   "scripts": {
     "storeRevueSubscribersCount": "node scripts/storeRevueSubscribersCount",
+    "storePlausibleViewsCount": "node scripts/storePlausibleViewsCount",
     "getWebmentions": "node scripts/getWebmentions",
-    "main": "npm run storeRevueSubscribersCount"
+    "main": "npm run storeRevueSubscribersCount && npm run storePlausibleViewsCount"
   },
   "devDependencies": {
     "dotenv": "^16.0.1",
