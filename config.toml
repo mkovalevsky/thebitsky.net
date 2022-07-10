@@ -90,10 +90,17 @@ weight = 2
 url = "https://github.com/theBitsky"
 
 [[params.social]]
+name = "YouTube"
+icon = "fa fa-youtube-play"
+iconColor = "#f4f4f4"
+weight = 3
+url = "https://www.youtube.com/channel/UC4W4vSy0A0Yycl3kN5qX5Gw"
+
+[[params.social]]
 name = "Instagram"
 icon = "fa fa-instagram"
 iconColor = "#d00172"
-weight = 3
+weight = 4
 url = "https://www.instagram.com/1Bitsky"
 
 [languages.en]
