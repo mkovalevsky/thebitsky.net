@@ -1,5 +1,5 @@
-baseURL = "https://kovalevski.net"
-title = "Max Kovalevski"
+baseURL = "https://thebitsky.net"
+title = "Bitsky"
 theme = "hugo-byte"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -10,13 +10,13 @@ paginate = 20
 # for rss
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 [author]
-  name = 'Max Kovalevski'
+  name = 'theBitsky'
 
 custom_css = ["css/custom.css"]
 
 [params]
-author = "Max Kovalevski"
-email = "me@kovalevski.net"
+author = "theBitsky"
+email = "me@thebitsky.net"
 description = "Personal website example"
 keywords = "blog"
 avatarURL = "/images/avatar.jpg"
@@ -27,7 +27,7 @@ dateFormat = "02/01/2006"
 since = 2022
 colorScheme = "dark"
 hideColorSchemeToggle = false
-greetingTitle = "<span class='gradient'>Hey, I'm</span> <span class='p-name'>Max Kovalevski</span>"
+greetingTitle = "<span class='gradient'>Hey, I'm</span> <span class='p-name'>Max Bitsky</span>"
 blurbContent = [
   'I am a software developer based in Europe',
   'I write a blog about topics that interest me most: programming languages in general, <a href="/tags/typescript">TypeScript</a>, testing, writing and other great stuff.'
@@ -48,13 +48,13 @@ isIndieWebRingShown = true
 [params.subscription]
 title = "Subscribe to the newsletter"
 description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my eBooks and courses."
-endpoint = "http://newsletter.kovalevski.net/add_subscriber"
+endpoint = "http://newsletter.thebitsky.net/add_subscriber"
 successMessage = "Success! Now check your email to confirm your subscription."
 failureMessage = "Oops, Something went wrong! Try again."
-subscriptionPageLink = "http://newsletter.kovalevski.net"
+subscriptionPageLink = "http://newsletter.thebitsky.net"
 
 [params.utterances]
-repo = "maxkovalevski/kovalevski-comments"
+repo = "thebitsky/thebitsky-comments"
 issueTerm = "pathname"
 theme = "github-dark"
 
@@ -80,14 +80,14 @@ name = "Twitter"
 icon = "fa fa-twitter"
 iconColor = "#5f9fe6"
 weight = 1
-url = "https://twitter.com/maxkovalevski"
+url = "https://twitter.com/theBitsky"
 
 [[params.social]]
 name = "GitHub"
 icon = "fa fa-github"
 iconColor = "#f4f4f4"
 weight = 2
-url = "https://github.com/maxkovalevski"
+url = "https://github.com/theBitsky"
 
 [[params.social]]
 name = "LinkedIn"
@@ -140,7 +140,7 @@ pre = "<i class='fa fa-archive color-orange'></i>"
 [[languages.en.menu.main]]
 name = "newsletter"
 weight = 5
-url = "http://newsletter.kovalevski.net"
+url = "http://newsletter.thebitsky.net"
 pre = "<i class='fa fa-envelope color-cyan'></i>"
 
 [[languages.en.menu.main]]
@@ -152,13 +152,13 @@ pre = "<i class='fa fa-rss-square color-pink'></i>"
 #[[languages.en.menu.main]]
 #name = "stats"
 #weight = 5
-#url = "https://plausible.io/kovalevski.net"
+#url = "https://plausible.io/thebitsky.net"
 #pre = "<i class='fa fa-bar-chart color-cyan'></i>"
 
 
 [params.plausibleAnalytics]
-domain = "kovalevski.net"
+domain = "thebitsky.net"
 
 [params.webmention]
-webmentionUrl = "https://webmention.io/kovalevski.net/webmention"
-pingbackUrl = "https://webmention.io/kovalevski.net/xmlrpc"
+webmentionUrl = "https://webmention.io/thebitsky.net/webmention"
+pingbackUrl = "https://webmention.io/thebitsky.net/xmlrpc"
