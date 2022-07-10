@@ -90,25 +90,11 @@ weight = 2
 url = "https://github.com/theBitsky"
 
 [[params.social]]
-name = "LinkedIn"
-icon = "fa fa-linkedin-square"
-iconColor = "#0961b8"
-weight = 3
-url = "https://www.linkedin.com/in/mkovalevski"
-
-[[params.social]]
 name = "Instagram"
 icon = "fa fa-instagram"
 iconColor = "#d00172"
-weight = 4
-url = "https://www.instagram.com/kovalevskimax"
-
-#[[params.social]]
-#name = "Mastodon"
-#icon = "fa fa-globe"
-#iconColor = "#d00172"
-#weight = 5
-#url = "https://mastodon.social/web/@kovalevski"
+weight = 3
+url = "https://www.instagram.com/1Bitsky"
 
 [languages.en]
 languageName = ":uk:"
