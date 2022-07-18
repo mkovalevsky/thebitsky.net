@@ -94,7 +94,7 @@ name = "YouTube"
 icon = "fa fa-youtube-play"
 iconColor = "#f4f4f4"
 weight = 3
-url = "https://www.youtube.com/channel/UC4W4vSy0A0Yycl3kN5qX5Gw"
+url = "https://www.youtube.com/channel/UCuLLnzUeCpg7z-H0bCNUlbw"
 
 [[params.social]]
 name = "Instagram"
