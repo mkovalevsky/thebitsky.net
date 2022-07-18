@@ -1,6 +1,6 @@
 [submodule "content"]
 	path = content
-	url = https://github.com/theBitsky/notes.git
+	url = https://github.com/mkovalevsky/notes.git
 [submodule "themes/hugo-byte"]
 	path = themes/hugo-byte
-	url = https://github.com/theBitsky/hugo-byte.git
+	url = https://github.com/mkovalevsky/hugo-byte.git
