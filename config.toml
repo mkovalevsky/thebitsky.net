@@ -1,5 +1,5 @@
-baseURL = "https://thebitsky.net"
-title = "Bitsky"
+baseURL = "https://maxkovalevsky.com"
+title = "Max Kovalevsky"
 theme = "hugo-byte"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -10,13 +10,13 @@ paginate = 20
 # for rss
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 [author]
-  name = 'theBitsky'
+  name = 'Max Kovalevsky'
 
 custom_css = ["css/custom.css"]
 
 [params]
-author = "theBitsky"
-email = "me@thebitsky.net"
+author = "Max Kovalevsky"
+email = "me@maxkovalevsky.com"
 description = "Personal website example"
 keywords = "blog"
 avatarURL = "/images/avatar.jpg"
@@ -27,7 +27,7 @@ dateFormat = "02/01/2006"
 since = 2022
 colorScheme = "dark"
 hideColorSchemeToggle = false
-greetingTitle = "<span class='gradient'>Hey, I'm</span> <span class='p-name'>Bitsky</span>"
+greetingTitle = "<span class='gradient'>Hey, I'm</span> <span class='p-name'>Max</span>"
 blurbContent = [
   'I am a software developer based in Europe',
   'I write a blog about topics that interest me most: programming languages in general, <a href="/tags/typescript">TypeScript</a>, testing, writing and other great stuff.'
@@ -48,13 +48,13 @@ isIndieWebRingShown = true
 [params.subscription]
 title = "Subscribe to the newsletter"
 description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my eBooks and courses."
-endpoint = "http://newsletter.thebitsky.net/add_subscriber"
+endpoint = "http://newsletter.maxkovalevsky.com/add_subscriber"
 successMessage = "Success! Now check your email to confirm your subscription."
 failureMessage = "Oops, Something went wrong! Try again."
-subscriptionPageLink = "http://newsletter.thebitsky.net"
+subscriptionPageLink = "http://newsletter.maxkovalevsky.com"
 
 [params.utterances]
-repo = "thebitsky/thebitsky-comments"
+repo = "mkovalevsky/maxkovalevskycom-comments"
 issueTerm = "pathname"
 theme = "github-dark"
 
@@ -80,14 +80,14 @@ name = "Twitter"
 icon = "fa fa-twitter"
 iconColor = "#5f9fe6"
 weight = 1
-url = "https://twitter.com/theBitsky"
+url = "https://twitter.com/KovalevskyMax"
 
 [[params.social]]
 name = "GitHub"
 icon = "fa fa-github"
 iconColor = "#f4f4f4"
 weight = 2
-url = "https://github.com/theBitsky"
+url = "https://github.com/mkovalevsky"
 
 [[params.social]]
 name = "YouTube"
@@ -101,7 +101,7 @@ name = "Instagram"
 icon = "fa fa-instagram"
 iconColor = "#d00172"
 weight = 4
-url = "https://www.instagram.com/1Bitsky"
+url = "https://www.instagram.com/MaxieKovalevsky"
 
 [languages.en]
 languageName = ":uk:"
@@ -133,7 +133,7 @@ pre = "<i class='fa fa-archive color-orange'></i>"
 [[languages.en.menu.main]]
 name = "newsletter"
 weight = 5
-url = "http://newsletter.thebitsky.net"
+url = "http://newsletter.maxkovalevsky.com"
 pre = "<i class='fa fa-envelope color-cyan'></i>"
 
 [[languages.en.menu.main]]
@@ -145,13 +145,13 @@ pre = "<i class='fa fa-rss-square color-pink'></i>"
 #[[languages.en.menu.main]]
 #name = "stats"
 #weight = 5
-#url = "https://plausible.io/thebitsky.net"
+#url = "https://plausible.io/maxkovalevsky.com"
 #pre = "<i class='fa fa-bar-chart color-cyan'></i>"
 
 
 [params.plausibleAnalytics]
-domain = "thebitsky.net"
+domain = "maxkovalevsky.com"
 
 [params.webmention]
-webmentionUrl = "https://webmention.io/thebitsky.net/webmention"
-pingbackUrl = "https://webmention.io/thebitsky.net/xmlrpc"
+webmentionUrl = "https://webmention.io/maxkovalevsky.com/webmention"
+pingbackUrl = "https://webmention.io/maxkovalevsky.com/xmlrpc"

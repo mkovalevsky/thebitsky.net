@@ -1,9 +1,9 @@
 {
-  "name": "thebitsky.net",
+  "name": "maxkovalevsky.com",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/theBitsky/thebitsky.net",
-  "author": "theBitsky <me@thebitsky.net>",
+  "repository": "https://github.com/mkovalevsky/maxkovalevsky.com",
+  "author": "Max Kovalevsky <me@maxkovalevsky.com>",
   "license": "MIT",
   "scripts": {
     "storeRevueSubscribersCount": "node scripts/storeRevueSubscribersCount",

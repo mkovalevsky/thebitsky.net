@@ -6,7 +6,7 @@ dotenv.config();
 
 const { WEBMENTION_API_KEY } = process.env;
 
-const SITE_DOMAIN = 'thebitsky.net';
+const SITE_DOMAIN = 'maxkovalevsky.com';
 
 (async () => {
     try {
